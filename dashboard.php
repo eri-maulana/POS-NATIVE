@@ -2,11 +2,11 @@
 
 require "config/config.php";
 
-$title  = "Dashboard - POS Native";
+$judul  = "Dashboard - POS Native";
 
-require_once "template/header.php";
-require_once "template/navbar.php";
-require_once "template/sidebar.php";
+require "template/header.php";
+require "template/navbar.php";
+require "template/sidebar.php";
 
 ?>
   
@@ -22,7 +22,7 @@ require_once "template/sidebar.php";
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="<?= $main_url ?>dashboard.php">Home</a></li>
+              <li class="breadcrumb-item"><a href="<?= $url_utama ?>dashboard.php">Home</a></li>
               <li class="breadcrumb-item active">Dashboard</li>
             </ol>
           </div><!-- /.col -->

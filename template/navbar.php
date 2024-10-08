@@ -1,7 +1,7 @@
-<body class="hold-transition sidebar-mini">
+<body class="hold-transition sidebar-mini layout-navbar-fixed" >
     <div class="wrapper">
         <!-- Navbar -->
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light fixed-top">
             <!-- Left navbar links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -10,7 +10,7 @@
             </ul>
 
             <!-- Right navbar links -->
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto layout-navbar-fixed">
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
                         <?= 'Admin' ?> <i class="fas fa-user ml-2"></i>
@@ -18,7 +18,6 @@
                     <div class="dropdown-menu dropdown-menu-right">
                         <a href="#" class="dropdown-item text-right">Ubah Password <i class="fas fa-key"></i></a>
                         <a href="#" class="dropdown-item text-right">Keluar <i class="fas fa-sign-out-alt"></i></a>
-                        <
                     </div>
                 </li>
             </ul>

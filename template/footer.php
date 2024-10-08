@@ -21,13 +21,13 @@
 <!-- REQUIRED SCRIPTS -->
 
 <!-- jQuery -->
-<script src="<?= $main_url ?>asset/AdminLTE/plugins/jquery/jquery.min.js"></script>
+<script src="<?= $url_utama ?>asset/AdminLTE/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap -->
-<script src="<?= $main_url ?>asset/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?= $url_utama ?>asset/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE -->
-<script src="<?= $main_url ?>asset/AdminLTE/dist/js/adminlte.js"></script>
+<script src="<?= $url_utama ?>asset/AdminLTE/dist/js/adminlte.js"></script>
 
 <!-- OPTIONAL SCRIPTS -->
-<script src="<?= $main_url ?>asset/AdminLTE/plugins/chart.js/Chart.min.js"></script>
+<script src="<?= $url_utama ?>asset/AdminLTE/plugins/chart.js/Chart.min.js"></script>
 </body>
 </html>

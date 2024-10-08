@@ -17,6 +17,6 @@ $koneksi = mysqli_connect($host, $user, $password, $db); //koneksi ke database
 //     echo "Berhasil koneksi ke Database";
 // }
 
-$main_url = "http://localhost/pos-native/";
+$url_utama = "http://localhost/pos-native/";
 
 ?>
