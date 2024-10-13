@@ -33,7 +33,7 @@ if (isset($_POST['simpan'])) {
         </div><!-- /.col -->
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item"><a href="<?= $url_utama ?>tambah-pengguna.php" class="text-dark">Pengguna</a></li>
+            <li class="breadcrumb-item"><a href="<?= $url_utama ?>pengguna/data-pengguna.php" class="text-dark">Pengguna</a></li>
             <li class="breadcrumb-item active">Tambah Pengguna</li>
           </ol>
         </div><!-- /.col -->

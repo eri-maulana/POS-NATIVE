@@ -51,3 +51,14 @@ function insert($data)
 
     return mysqli_affected_rows($koneksi);
 }
+
+function hapusPengguna($id, $foto){
+    global $koneksi;
+
+    $sqlHapus = "DELETE FROM tbl_pengguna WHERE penggunaid = '$id'";
+    mysqli_query($koneksi, $sqlHapus);
+    if ($foto != 'default.png') {
+        unlink('../asset/image/' . $foto);
+    }
+    return mysqli_affected_rows($koneksi);
+}

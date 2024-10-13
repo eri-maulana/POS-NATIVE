@@ -31,6 +31,15 @@ function unggahGambar(){
     return $namaFileBaru;
 }
 
+function ambilData($sql){
+    global $koneksi;
 
+    $result = mysqli_query($koneksi, $sql);
+    $data = [];
+    while($row = mysqli_fetch_assoc($result)){
+        $data[] = $row;
+    }
+    return $data;
+}
 
 ?>

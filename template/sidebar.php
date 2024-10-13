@@ -93,7 +93,7 @@
         </li>
         <li class="nav-item">
           <a href="<?= $url_utama ?>dashboard.php" class="nav-link">
-            <i class="nav-icon text-sm fas fa-folder"></i>
+            <i class="nav-icon text-sm fas fa-cog"></i>
             <p>
               Pengaturan
               <i class="fas fa-angle-left right"></i>
@@ -101,7 +101,7 @@
           </a>
           <ul class="nav nav-treeview ml-4 text-xs">
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="<?= $url_utama ?>pengguna/data-pengguna.php" class="nav-link">
                 <i class="fas fa-users nav-icon text-sm"></i>
                 <p>Pengguna</p>
               </a>
